@@ -3,7 +3,7 @@ package com.dsa.graph;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DisjointSet {
+public abstract class DisjointSet {
     List<Integer> parent = new ArrayList<>();
 
     /*
